@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+
+    <link rel="stylesheet" href="./CSS/stylesheet.css">
+</head>
+<body>
+
+            <!--  The main class is "container" -->
+
+    <div class="container"> 
+        
+            <!--  sub class is "header" -->
+        <div class="header">
+            <h2> Create Form</h2> 
+        </div>
+
+            <!-- Creation of form -->
+
+        <form action="newpage.html" class="form" id="form" method="get">
+             <!--  Input for username -->
+             <div class="form-control">
+
+            <label for="username"> Username</label>
+            <input type="text" placeholder="Felix Kwakye" id="username">
+            <small> Error Message</small>
+
+              </div>
+
+
+                 <!-- input for email -->
+               <div class=" form-control">
+
+                <label for="email"> Email</label>
+                <input type="email" placeholder="kwakyefelix@gmail.com" id="email">
+                <small> Error Message</small>
+    
+                </div>
+
+                    <!-- password -->
+                  <div class="form-control">
+
+                    <label for="Password"> Password</label>
+                    <input type="password" placeholder="******" id="password">
+                    <small> Error Message</small>
+                  </div>
+
+
+
+                    <div class="form-control">
+
+                        <label for="Confirm password"> Confirm password</label>
+                        <input type="password" placeholder="******" id="password2">
+                        <small> Error Message</small>
+                     </div>
+
+                    <button onclick="<a href='newpage.html'></a>">Submit</button> 
+
+                   
+                </form>
+            </div> 
+   <!-- <button onclick="window.print()" id="print">Click here to print out</button> -->
+
+   
+    <script lang="javascript" type="text/javascript" src="./JS/validate.js"></script>
+</body>
+</html>
